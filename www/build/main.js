@@ -180,7 +180,7 @@ var HomePage = /** @class */ (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Admin\Desktop\mfana\MomentInTimeAPP1\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n  <p>sinazo2</p>\n\n\n\n  <button  (click)="logout()"> logout</button>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Desktop\mfana\MomentInTimeAPP1\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Admin\Desktop\mfana\MomentInTimeAPP1\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n  <p>sinazo2</p>\n\n\n\n  \n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Admin\Desktop\mfana\MomentInTimeAPP1\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
     ], HomePage);
