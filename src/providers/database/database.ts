@@ -36,4 +36,12 @@ export class DatabaseProvider {
   
  }
 
+ signout(){
+  return new Promise((resolve, reject)=>{
+   firebase.auth().signout();
+   resolve();
+
+  })
+ }
+
 }
