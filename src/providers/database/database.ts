@@ -33,12 +33,20 @@ export class DatabaseProvider {
     resolve();
 
 })
-  
- }
+}
+
+forgetPassword(email){
+  return new Promise((resolve, reject)=>{
+    firebase.auth().sendPasswordResetEmail(email ) ;
+    resolve();
+
+})
+
+}
 
  signout(){
   return new Promise((resolve, reject)=>{
-   firebase.auth().signout();
+   firebase.auth().signOut();
    resolve();
 
   })
