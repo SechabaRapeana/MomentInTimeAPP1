@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 
 declare var firebase ;
 
+
 /*
   Generated class for the DatabaseProvider provider.
 
@@ -15,7 +16,7 @@ export class DatabaseProvider {
   constructor(public http: HttpClient) {
     console.log('Hello DatabaseProvider Provider');
   }
-
+ 
 
 
   register(email , password){ 
@@ -51,5 +52,7 @@ forgetPassword(email){
 
   })
  }
+
+
 
 }

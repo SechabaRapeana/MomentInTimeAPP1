@@ -9,9 +9,7 @@ import {DatabaseProvider} from '../../providers/database/database' ;
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController  ) {
+  constructor(public navCtrl: NavController , private db:DatabaseProvider ) {
 
   }
-  
- 
-}
+  }

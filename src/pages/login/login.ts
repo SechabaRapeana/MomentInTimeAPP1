@@ -54,8 +54,7 @@ export class LoginPage {
     } ,(error)=>{
 
     })
-
-
   }
+
 
 }
